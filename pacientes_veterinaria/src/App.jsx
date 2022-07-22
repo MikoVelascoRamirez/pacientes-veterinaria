@@ -1,9 +1,8 @@
-//import { useState } from 'react'
-function App() {
+import Header from '../components/Header';
+
+const App = () => {
   return (
-    <div>
-      <p>Homla a tomdos</p>
-    </div>
+    <Header />
   )
 }
 
