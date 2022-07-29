@@ -4,7 +4,7 @@ import ListadoPacientes from '../components/ListadoPacientes';
 
 const App = () => {
   return (
-    <div>
+    <div className="mt-10 mx-auto">
       <Header />
       <Formulario/>
       <ListadoPacientes/>
