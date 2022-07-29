@@ -1,6 +1,8 @@
 const Header = () => {
     return(
-        <h1>Desde Header</h1>
+        <h1 className="font-black text-5xl text-center w-full md:w-2/3 mx-auto">
+            Seguimiento pacientes <span className="text-indigo-600">Veterinaria</span> 
+        </h1>
     )
 } 
 
