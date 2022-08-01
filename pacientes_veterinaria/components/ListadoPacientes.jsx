@@ -1,6 +1,8 @@
 const ListadoPacientes = () => {
   return (
-    <h2>Listado Pacientes</h2>
+    <div className="sm:w-3/6">
+      <h2>Listado Pacientes</h2>
+    </div>
   )
 }
 

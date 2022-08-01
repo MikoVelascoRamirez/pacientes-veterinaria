@@ -4,10 +4,12 @@ import ListadoPacientes from '../components/ListadoPacientes';
 
 const App = () => {
   return (
-    <div className="mt-10 mx-auto">
+    <div className="mx-auto container mt-10">
       <Header />
-      <Formulario/>
-      <ListadoPacientes/>
+      <div className="w-full mt-16 sm:flex px-10">
+        <Formulario/>
+        <ListadoPacientes/>
+      </div>
     </div>
   )
 }
