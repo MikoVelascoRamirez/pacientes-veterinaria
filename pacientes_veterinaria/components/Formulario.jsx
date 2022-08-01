@@ -1,7 +1,7 @@
 
 const Formulario = () => {
   return (
-    <div className="sm:w-2/6 md:w-5/12">
+    <div className="sm:w-2/6 md:w-5/12 pb-10">
         <h2 className="font-black text-3xl text-center">Seguimiento Pacientes</h2>
 
         <p className="text-lg mt-5 text-center">
