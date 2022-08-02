@@ -29,10 +29,9 @@ const Formulario = () => {
 
         <form 
           onSubmit={handleSubmit}
-          className="bg-white shadow-md rounded-lg py-8 px-5 mt-5">
+          className="bg-white shadow-md rounded-lg py-4 px-5 mt-5">
           <div className="mb-5">
             
-            { error && <p>Algunos campos están vacíos</p> }
             
             <label htmlFor="mascota" className="block text-gray-700 uppercase font-bold">Nombre Mascota</label>
             <input 
@@ -86,6 +85,8 @@ const Formulario = () => {
               //value={}={paciente.sintomas}
               onChange={ e => patient.sintomas = e.target.value}
               id="sintomas"/>
+              
+              { error && <p className="bg-red-800 text-center text-sm text-white p-3 my-2 uppercase font-bold">Algunos campos están vacíos</p> }
           </div>
 
           <input 
